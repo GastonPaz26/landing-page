@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Despegar</title>
+    <link
+      class="shortcut-icon"
+      rel="shortcut icon"
+      href="./assets/icon-despegar.png"
+      type="imagen/x-com"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section>
+        <img
+          class="logo-despegar"
+          src="./assets/logo-despegar.png"
+          alt="logo-despegar"
+        />
+      </section>
+      <section class="header-title--container">
+        <h1>Haz realidad el viaje de tus sueños</h1>
+        <p>Aprovecha estas ofertas imperdibles</p>
+        <a href="#main-travel-on-sale" class="header-buttom">
+          Mira todas las Oferta <span></span>
+        </a>
+      </section>
+    </header>
+    <main>
+      <section class="formularios">
+        <div class="wave">
+          <div style="height: 150px; overflow: hidden">
+            <svg
+              viewBox="0 0 500 150"
+              preserveAspectRatio="none"
+              style="height: 100%; width: 100%"
+            >
+              <path
+                d="M0.00,49.99 C150.33,148.31 279.00,-0.69 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #e9ecef"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="sub-ofertas">
+          <h2>Recibi las mejores ofertas!</h2>
+          <form>
+            <label for="text">Ingrese su nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="last-name"
+              placeholder="Ingrese Nombre"
+              minlength="2"
+              maxlength="30"
+            />
+            <label for="email">Correo electronico</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingrese correo electronico"
+              minlength="2"
+              maxlength="30"
+            />
+            <div class="submit-form">
+              <button>Enviar</button>
+            </div>
+            <div class="img-form"></div>
+          </form>
+        </div>
+      </section>
+      <section id="main-travel-on-sale" class="main-travel-on-sale">
+        <h2>¡Destinos en OFERTA!</h2>
+        <div class="all-cards">
+          <div class="card-newyork">
+            <img src="./destinos/nuevayork.jpg" alt="new york img" />
+            <p class="ofert-type">
+              Vuelos <span class="img-ofert-type"></span>
+            </p>
+            <p class="destinations-title">Nueva York</p>
+            <p class="price-trip">
+              $25.000 $ARS <span>No incluye impuestos</span>
+            </p>
+            <a href="#">Mas info</a>
+          </div>
+          <div class="card-tulum">
+            <img src="./destinos/tulum.jpg" alt="tulum img" />
+            <p class="ofert-type">
+              Vuelos <span class="img-ofert-type"></span>
+            </p>
+            <p class="destinations-title">Tulum</p>
+            <p class="price-trip">
+              $25.000 $ARS <span>No incluye impuestos</span>
+            </p>
+            <a href="#">Mas info </a>
+          </div>
+          <div class="card-amsterdam">
+            <img src="./destinos/amsterdam.jpg" alt="amsterdam img" />
+            <p class="ofert-type">
+              Vuelos <span class="img-ofert-type"></span>
+            </p>
+            <p class="destinations-title">Amsterdam</p>
+            <p class="price-trip">
+              $25.000 $ARS<span>No incluye impuestos</span>
+            </p>
+            <a href="#">Mas info</a>
+          </div>
+          <div class="card-francia">
+            <img src="./destinos/francia.jpg" alt="francia img" />
+            <p class="ofert-type">
+              Vuelos
+              <span class="img-ofert-type"></span>
+            </p>
+            <p class="destinations-title">Francia</p>
+            <p>$25.000 $ARS<span>No incluye impuestos</span></p>
+            <a href="#">Mas info</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="footer-left" class="sm-footer">
+        <a href="#"><img src="./assets/fb-logo.png" alt="fb-logo" /></a>
+        <a href="#"><img src="./assets/ig-logo.png" alt="ig-logo" /></a>
+        <a href="#"><img src="./assets/tw-logo.png" alt="tw-logo" /></a>
+      </div>
+      <div id="footer-rigth">
+        <div class="more-information">
+          <a href="#">Quienes Somos</a>
+          <a href="#">Politicas de Privacidad</a>
+          <a href="#">Soporte</a>
+        </div>
+        <div class="img-footer">
+          <img src="./assets/logo-despegar.png" alt="logo-despegar" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
